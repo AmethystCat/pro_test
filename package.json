@@ -1,0 +1,16 @@
+{
+  "name": "gulp_less",
+  "version": "1.0.0",
+  "description": "test pro for gulp and less",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HC",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-less": "^2.0.1",
+    "gulp-watch": "^3.0.0"
+  }
+}
