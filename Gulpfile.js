@@ -7,7 +7,7 @@ var gulp = require('gulp'),
 
     gulp.task("default", function () {
         gulp.src('css/*.less')
-            .pipe(less())
             .pipe(watch('css/*.less'))
+            .pipe(less())
             .pipe(gulp.dest('css'));
     });
